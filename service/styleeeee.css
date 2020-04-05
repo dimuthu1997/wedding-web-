@@ -1,0 +1,1184 @@
+#brand-image{
+       width: 120px;
+}
+.navbar-nav a{
+       font-family: 'poppins' sans-serif;
+       font-size: 18px;
+       text-transform: uppercase;
+       
+      
+}
+.navbar-light .navbar-nav .nav-link{
+       color: black;
+}
+.navbar-nav{
+       text-align: center;
+       
+     
+       
+}
+
+.nav-link.active, .nav-link:focus {
+       color: black!important;
+}
+
+.head{
+       position: fixed;
+       box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+       width: 100%;
+       z-index: 50;
+       background: #fff;
+       
+    
+}
+
+html,body{
+       height: 100;
+       width: 100%
+       font-family: 'poppins', sans-serif;
+       
+      
+              
+}
+
+.s1
+{
+     padding-top: 50px;  
+}
+
+.image
+{
+       margin-top: -85px;
+       margin-bottom: 420px;
+       
+
+}
+
+
+.banner1,.banner2,.banner3,.banner4,.banner5{
+       height: 100vh;
+       width: 100%;
+       position: absolute;
+       left: 0;
+       
+   
+       
+}
+
+img{
+       width: 100%;
+       animation: zoom-out 3s linear infinite;
+       
+}
+@keyframes zoom-out{
+       100%;
+       {
+              width: 100%;
+       }
+}
+.banner1{
+       animation: photo-1 35s linear infinite;
+}
+
+.banner2{
+       animation: photo-2 35s linear infinite;
+}
+ .banner3{
+       animation: photo-3 35s linear infinite;
+}
+.banner4{
+       animation: photo-4 35s linear infinite;
+}
+.banner5{
+       animation: photo-5 35s linear infinite;
+}
+@keyframes photo-1{
+       0%{
+              visibility: visible;
+                            
+       }
+       25%{
+              visibility: hidden;
+              
+       }
+       
+       50%{
+              visibility: hidden;
+              
+       }
+       75%{
+              visibility: hidden;
+              
+       }
+       100%{
+              visibility: visible;
+              
+       }
+}
+
+@keyframes photo-2{
+       0%{
+              visibility: hidden;
+                            
+       }
+       25%{
+              visibility: visible;
+              
+       }
+       
+       50%{
+              visibility: hidden;
+              
+       }
+       75%{
+              visibility: hidden;
+              
+       }
+       100%{
+              visibility: hidden;
+              
+       }
+}
+@keyframes photo-3{
+       0%{
+              visibility: hidden;
+                            
+       }
+       25%{
+              visibility: hidden;
+              
+       }
+       
+       50%{
+              visibility: visible;
+              
+       }
+       75%{
+              visibility: hidden;
+              
+       }
+       100%{
+              visibility: hidden;
+              
+       }
+}
+@keyframes photo-4{
+       0%{
+              visibility: hidden;
+                            
+       }
+       25%{
+              visibility: hidden;
+              
+       }
+       
+       50%{
+              visibility: hidden;
+              
+       }
+       75%{
+              visibility: visible;
+              
+       }
+       100%{
+              visibility: hidden;
+              
+       }
+}
+@keyframes photo-5{
+       0%{
+              visibility: hidden;
+                            
+       }
+       25%{
+              visibility: hidden;
+              
+       }
+       
+       50%{
+              visibility: hidden;
+              
+       }
+       75%{
+              visibility: hidden;
+              
+       }
+       100%{
+              visibility: visible;
+              
+       }
+}
+.section-header{
+       text-align: center; 
+       margin-bottom: 60px;
+       margin-top: 15px;
+       background: tomato; 
+       color: white;
+       padding-top: 40px;
+       border-radius: 50px;
+      
+       
+      
+       
+       
+}
+.single-service{
+       border: 1px solid #ebebeb;
+       text-align: left;
+       background: #ddd;
+       margin-bottom: 4rem;
+}
+.service-bg{
+       height: 200px;
+       position: relative;
+}
+.service-bg-1{
+       background: url(img/reception/hall1.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-2{
+       background: url(img/reception/hall2.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-3{
+       background: url(img/reception/hall3.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+
+.service-bg-4{
+       background: url(img/reception/hall4.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-5{
+       background: url(img/reception/hall5.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-6{
+       background: url(img/reception/hall6.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-7{
+       background: url(img/reception/hall7.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-8{
+       background: url(img/reception/hall8.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-9{
+       background: url(img/reception/hall9.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+
+
+.service-bg-10{
+       background: url(img/Catering/catering1.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-11{
+       background: url(img/Catering/catering2.jpeg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-12{
+       background: url(img/Catering/catering3.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+
+.service-bg-13{
+       background: url(img/Catering/catering4.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-14{
+       background: url(img/Catering/catering5.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-15{
+       background: url(img/Catering/catering6.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-16{
+       background: url(img/Catering/catering7.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-17{
+       background: url(img/Catering/catering8.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-18{
+       background: url(img/Catering/catering9.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+
+
+
+.service-bg-19{
+       background: url(img/Photography%20%20Vedio/camera1.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-20{
+       background: url(img/Photography%20%20Vedio/camera2.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-21{
+       background: url(img/Photography%20%20Vedio/camera3.jpeg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+
+.service-bg-22{
+       background: url(img/Photography%20%20Vedio/camera4.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-23{
+       background: url(img/Photography%20%20Vedio/camera5.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-24{
+       background: url(img/Photography%20%20Vedio/camera6.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-25{
+       background: url(img/Photography%20%20Vedio/camera7.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-26{
+       background: url(img/Photography%20%20Vedio/camera8.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-27{
+       background: url(img/Photography%20%20Vedio/camera9.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+
+
+.service-bg-28{
+       background: url(img/Music/music1.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-29{
+       background: url(img/Music/music2.jpeg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-30{
+       background: url(img/Music/music3.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+
+.service-bg-31{
+       background: url(img/Music/music4.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-32{
+       background: url(img/Music/music5.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-33{
+       background: url(img/Music/music6.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-34{
+       background: url(img/Music/music7.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-35{
+       background: url(img/Music/music8.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-36{
+       background: url(img/Music/music9.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+
+
+
+.service-bg-28{
+       background: url(img/Music/music1.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-29{
+       background: url(img/Music/music2.jpeg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-30{
+       background: url(img/Music/music3.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+
+.service-bg-31{
+       background: url(img/Music/music4.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-32{
+       background: url(img/Music/music5.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-33{
+       background: url(img/Music/music6.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-34{
+       background: url(img/Music/music7.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-35{
+       background: url(img/Music/music8.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-36{
+       background: url(img/Music/music9.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+
+
+.service-bg-37{
+       background: url(img/Music/music1.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-38{
+       background: url(img/Music/music2.jpeg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-39{
+       background: url(img/Music/music3.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+
+.service-bg-40{
+       background: url(img/Music/music4.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-41{
+       background: url(img/Music/music5.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-42{
+       background: url(img/Music/music6.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-43{
+       background: url(img/Music/music7.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-44{
+       background: url(img/Music/music8.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-45{
+       background: url(img/Music/music9.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+
+
+.service-bg-46{
+       background: url(img/Wedding%20Car/car1.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-47{
+       background: url(img/Wedding%20Car/car2.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-48{
+       background: url(img/Wedding%20Car/car3.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+
+.service-bg-49{
+       background: url(img/Wedding%20Car/car4.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-50{
+       background: url(img/Wedding%20Car/car5.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-51{
+       background: url(img/Wedding%20Car/car6.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-52{
+       background: url(img/Wedding%20Car/car7.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-53{
+       background: url(img/Wedding%20Car/car8.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-54{
+       background: url(img/Wedding%20Car/car9.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+
+
+.service-bg-55{
+       background: url(img/Music/music1.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-56{
+       background: url(img/Music/music2.jpeg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-57{
+       background: url(img/Music/music3.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+
+.service-bg-58{
+       background: url(img/Music/music4.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-59{
+       background: url(img/Music/music5.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-60{
+       background: url(img/Music/music6.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-61{
+       background: url(img/Music/music7.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-62{
+       background: url(img/Music/music8.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-63{
+       background: url(img/Music/music9.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+
+
+.service-bg-64{
+       background: url(img/Music/music1.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-65{
+       background: url(img/Music/music2.jpeg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-66{
+       background: url(img/Music/music3.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+
+.service-bg-67{
+       background: url(img/Music/music4.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-68{
+       background: url(img/Music/music5.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-69{
+       background: url(img/Music/music6.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-70{
+       background: url(img/Music/music7.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-71{
+       background: url(img/Music/music8.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-72{
+       background: url(img/Music/music9.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+
+
+
+.service-bg-73{
+       background: url(img/Music/music1.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-74{
+       background: url(img/Music/music2.jpeg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-75{
+       background: url(img/Music/music3.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+
+.service-bg-76{
+       background: url(img/Music/music4.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-77{
+       background: url(img/Music/music5.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-78{
+       background: url(img/Music/music6.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-79{
+       background: url(img/Music/music7.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-80{
+       background: url(img/Music/music8.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-81{
+       background: url(img/Music/music9.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+
+
+.service-bg-82{
+       background: url(img/Music/music1.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-83{
+       background: url(img/Music/music2.jpeg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-84{
+       background: url(img/Music/music3.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+
+.service-bg-85{
+       background: url(img/Music/music4.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-86{
+       background: url(img/Music/music5.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-87{
+       background: url(img/Music/music6.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-88{
+       background: url(img/Music/music7.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-89{
+       background: url(img/Music/music8.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-90{
+       background: url(img/Music/music9.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+
+
+
+.service-bg-91{
+       background: url(img/Bridal%20Accessories/bridle1.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-92{
+       background: url(img/Bridal%20Accessories/bridle2.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-93{
+       background: url(img/Bridal%20Accessories/bridle3.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+
+.service-bg-94{
+       background: url(img/Bridal%20Accessories/bridle4.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-95{
+       background: url(img/Bridal%20Accessories/bridle5.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-96{
+       background: url(img/Bridal%20Accessories/bridle6.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-97{
+       background: url(img/Bridal%20Accessories/bridle7.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-98{
+       background: url(img/Bridal%20Accessories/bridle8.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-99{
+       background: url(img/Bridal%20Accessories/bridle9.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+
+
+.service-bg-100{
+       background: url(img/Music/music1.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-101{
+       background: url(img/Music/music2.jpeg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-102{
+       background: url(img/Music/music3.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+
+.service-bg-103{
+       background: url(img/Music/music4.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-104{
+       background: url(img/Music/music5.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-105{
+       background: url(img/Music/music6.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-106{
+       background: url(img/Music/music7.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-107{
+       background: url(img/Music/music8.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-108{
+       background: url(img/Music/music9.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+
+
+
+.service-bg-109{
+       background: url(img/Music/music1.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-110{
+       background: url(img/Music/music2.jpeg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-111{
+       background: url(img/Music/music3.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+
+.service-bg-112{
+       background: url(img/Music/music4.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-113{
+       background: url(img/Music/music5.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-114{
+       background: url(img/Music/music6.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-115{
+       background: url(img/Music/music7.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-116{
+       background: url(img/Music/music8.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-1178{
+       background: url(img/Music/music9.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+
+.service-bg-118{
+       background: url(img/Music/music1.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-119{
+       background: url(img/Music/music2.jpeg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-120{
+       background: url(img/Music/music3.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+
+.service-bg-121{
+       background: url(img/Music/music4.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-122{
+       background: url(img/Music/music5.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-123{
+       background: url(img/Music/music6.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-124{
+       background: url(img/Music/music7.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-125{
+       background: url(img/Music/music8.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+.service-bg-126{
+       background: url(img/Music/music9.jpg);
+       background-size: cover;
+       -webkit-background-size: cover;
+       background-position: center;
+}
+
+
+
+.service-bg h2{
+       color: #fff;
+       background: turquoise;
+       border: 1px solid turquoise;
+       font-size: 17px;
+       text-align: center;
+       font-weight: 700px;
+       padding: 15px;
+       position: absolute;
+       left: 8%;
+       width: 84%;
+       margin: 0;
+       bottom: -25px;
+       border-radius: 50px;
+       letter-spacing: 2px;
+}
+
+.single-service:hover .service-bg h2{
+       background: #fff;
+       transition: 0.9%;
+       color: turquoise;
+}
+.service-text{
+       padding: 50px 30px 20px;
+       font-size: 15px;
+       font-weight: 400px;
+}
+.service-text p:last-child{
+       margin: 0;
+       line-height: 1.8;
+       
+}
+btn-area{
+       display: inline-block;
+       color: #333;
+       font-size: 17px;
+       font-weight: 700px;
+       margin-top: 30px;
+       text-transform: capitalize;
+}
+
+
+footer{
+       background-color: #3f3f3f;
+       color: #d5d5d5;
+       padding-top: 1rem;
+       margin-top: 1rem;
+       
+}
+       
+footer a{
+       color: #d5d5d5;
+       
+}
+footer a:hover{
+       color: white;
+}
+hr.light-100{
+       border-top: 1px solid #d5d5d5;
+       width: 100%;
+       margin-top: 3rem;
+       margin-bottom: 1rem;
+      
+       
+}
+.col-md-6 {
+       margin-top: 1rem;
+       
+       
+}
+
+.col-md-6 h1{
+       background-color: #E4E8D5;
+       padding-bottom: 340px;
+       text-align: center;
+         
+       
+}
+.col-md-12{
+       text-align: center;
+       font-size: 20px;
+}
+.text-right{
+       margin-bottom: 2rem;
+       margin-top: 1rem;
+       padding: 4rem ;
+}
+
+
+

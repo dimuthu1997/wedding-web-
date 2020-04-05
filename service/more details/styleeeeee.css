@@ -1,0 +1,256 @@
+#brand-image{
+       width: 120px;
+}
+.navbar-nav a{
+       font-family: 'poppins' sans-serif;
+       font-size: 18px;
+       text-transform: uppercase;
+       
+      
+}
+.navbar-light .navbar-nav .nav-link{
+       color: black;
+}
+.navbar-nav{
+       text-align: center;
+       
+     
+       
+}
+
+.nav-link.active, .nav-link:focus {
+       color: black!important;
+}
+
+.head{
+       position: fixed;
+       box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+       width: 100%;
+       z-index: 50;
+       background: #fff;
+       
+    
+}
+
+html,body{
+       height: 100;
+       width: 100%
+       font-family: 'poppins', sans-serif;
+       
+      
+              
+}
+.s1
+{
+     padding-top: 50px;  
+}
+
+.image
+{
+       margin-top: -85px;
+       margin-bottom: 420px;
+       
+
+}
+
+
+.banner1,.banner2,.banner3,.banner4,.banner5{
+       height: 100vh;
+       width: 100%;
+       position: absolute;
+       left: 0;
+       
+   
+       
+}
+
+img{
+       width: 100%;
+       animation: zoom-out 3s linear infinite;
+       
+}
+@keyframes zoom-out{
+       100%;
+       {
+              width: 100%;
+       }
+}
+.banner1{
+       animation: photo-1 35s linear infinite;
+}
+
+.banner2{
+       animation: photo-2 35s linear infinite;
+}
+ .banner3{
+       animation: photo-3 35s linear infinite;
+}
+.banner4{
+       animation: photo-4 35s linear infinite;
+}
+.banner5{
+       animation: photo-5 35s linear infinite;
+}
+@keyframes photo-1{
+       0%{
+              visibility: visible;
+                            
+       }
+       25%{
+              visibility: hidden;
+              
+       }
+       
+       50%{
+              visibility: hidden;
+              
+       }
+       75%{
+              visibility: hidden;
+              
+       }
+       100%{
+              visibility: visible;
+              
+       }
+}
+
+@keyframes photo-2{
+       0%{
+              visibility: hidden;
+                            
+       }
+       25%{
+              visibility: visible;
+              
+       }
+       
+       50%{
+              visibility: hidden;
+              
+       }
+       75%{
+              visibility: hidden;
+              
+       }
+       100%{
+              visibility: hidden;
+              
+       }
+}
+@keyframes photo-3{
+       0%{
+              visibility: hidden;
+                            
+       }
+       25%{
+              visibility: hidden;
+              
+       }
+       
+       50%{
+              visibility: visible;
+              
+       }
+       75%{
+              visibility: hidden;
+              
+       }
+       100%{
+              visibility: hidden;
+              
+       }
+}
+@keyframes photo-4{
+       0%{
+              visibility: hidden;
+                            
+       }
+       25%{
+              visibility: hidden;
+              
+       }
+       
+       50%{
+              visibility: hidden;
+              
+       }
+       75%{
+              visibility: visible;
+              
+       }
+       100%{
+              visibility: hidden;
+              
+       }
+}
+@keyframes photo-5{
+       0%{
+              visibility: hidden;
+                            
+       }
+       25%{
+              visibility: hidden;
+              
+       }
+       
+       50%{
+              visibility: hidden;
+              
+       }
+       75%{
+              visibility: hidden;
+              
+       }
+       100%{
+              visibility: visible;
+              
+       }
+}
+
+footer{
+       background-color: #3f3f3f;
+       color: #d5d5d5;
+       padding-top: 1rem;
+       
+}
+
+       
+footer a{
+       color: #d5d5d5;
+       
+       
+}
+hr.light-100{
+       border-top: 1px solid #d5d5d5;
+       width: 100%;
+       margin-top: 3rem;
+       margin-bottom: 1rem;
+      
+       
+}
+.col-6 {
+       margin-top: 1rem;
+       
+       
+}
+
+.col-6 h1{
+       background-color: #E4E8D5;
+       padding-bottom: 340px;
+       text-align: center;
+         
+       
+}
+.col-12{
+       text-align: center;
+       font-size: 20px;
+}
+.text-right{
+       margin-bottom: 2rem;
+       margin-top: 1rem;
+       padding: 4rem ;
+}
+
+
+
